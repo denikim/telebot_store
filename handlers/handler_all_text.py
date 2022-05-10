@@ -261,11 +261,11 @@ class HandlerAllText(Handler):
                                           category_menu())
 
             # ********** меню (категории товара, ПФ, Бакалея, Мороженое)******
-            if message.text == config.KEYBOARD['SEMIPRODUCT']:
-                self.pressed_btn_product(message, 'SEMIPRODUCT')
+            if message.text == config.KEYBOARD['GUITAR']:
+                self.pressed_btn_product(message, 'GUITAR')
 
-            if message.text == config.KEYBOARD['GROCERY']:
-                self.pressed_btn_product(message, 'GROCERY')
+            if message.text == config.KEYBOARD['BASS']:
+                self.pressed_btn_product(message, 'BASS')
 
             if message.text == config.KEYBOARD['ICE_CREAM']:
                 self.pressed_btn_product(message, 'ICE_CREAM')
