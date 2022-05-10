@@ -42,8 +42,8 @@ KEYBOARD = {
 
 # id категорий продуктов
 CATEGORY = {
-    'SEMIPRODUCT': 1,
-    'GROCERY': 2,
+    'GUITAR': 1,
+    'BASS': 2,
     'ICE_CREAM': 3,
 }
 
